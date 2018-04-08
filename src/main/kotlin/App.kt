@@ -59,7 +59,7 @@ class App : Application(), MainView.View {
         btn_clear.setOnAction { clear() }
         hbox.children.addAll(btn_addPerson, btn_delPerson, btn_changePersonName, btn_clear)
         root.children.addAll(textField, hbox, text_result, text_data)
-        stage.title = "Demo"
+        stage.title = "AddPerson"
         stage.scene = Scene(root, 800.0, 600.0)
         stage.show()
 
